@@ -24,7 +24,6 @@ class ControlPanel:
             self.controls.remove(control)
 
 
-
 class BaseControl:
     def __init__(self, root):
         self.root = root
